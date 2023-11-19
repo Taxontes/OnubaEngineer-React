@@ -1,0 +1,127 @@
+.tilulo-valores {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.valores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 200px;
+}
+
+.wave {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url('wave.png');
+    background-size: 1000px 100px;
+    animation: wave 10s linear infinite;
+    margin-bottom: 200px;
+}
+
+.wave::before,
+.wave::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: inherit;
+    animation: inherit;
+}
+
+.wave::before {
+    opacity: 0.7;
+    /* Ajusta la opacidad según tus necesidades */
+}
+
+.wave::after {
+    opacity: 0.4;
+    /* Ajusta la opacidad según tus necesidades */
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front {
+    transform: perspective(660px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front .card-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0, 0, 0, .4);
+    text-align: center;
+}
+
+.card .back {
+    transform: perspective(600px)rotateY(180deg);
+    background: #0e2443;
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back .card-title {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+@keyframes wave {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}

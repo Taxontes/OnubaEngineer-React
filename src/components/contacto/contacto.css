@@ -1,0 +1,221 @@
+.fondo-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0 0 0 / .8), rgba(0 0 0 / .8)), url('/slider/muelletintoGray.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+
+
+}
+
+.contenedor-contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 20px;
+    gap: 100px;
+    width: 1000px;
+
+}
+
+.box-info {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.box-info>h1 {
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+
+.data>p {
+    font-size: 18px;
+}
+
+
+.links>a>i {
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.input-box {
+    position: relative;
+}
+
+.input-box>input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    background: rgba(255 255 255 / .1);
+    border: 3px solid transparent;
+    letter-spacing: 1px;
+    transition: .3s;
+    color: #fff;
+
+}
+
+.input-box>input::placeholder,
+.input-box>textarea::placeholder {
+    color: #a3a3a3;
+
+}
+
+.input-box>input:focus::placeholder,
+.input-box>textarea:focus::placeholder {
+    color: transparent;
+}
+
+.input-box>input:focus,
+.input-box>textarea:focus {
+    border-bottom: 3px solid #41A8FF;
+    animation: shake .2s;
+}
+
+.input-box>textarea {
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    background: rgba(255 255 255 / .1);
+    border: 3px solid transparent;
+    letter-spacing: 1px;
+    outline: none;
+    transition: .3s;
+    color: #fff;
+    letter-spacing: 1.5px;
+    resize: none;
+}
+
+
+.input-box>i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: rgba(255 255 255 / .3);
+    transition: .3s;
+}
+
+.input-box>input:focus~i {
+    color: #41A8FF;
+}
+
+form>button {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #41A8FF;
+    color: #fff;
+    border: none;
+    transition: .1s;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form>button:hover,
+.links>a:hover {
+    background: #1b82f5;
+}
+
+
+/* -------------------------------------------------------------- */
+
+.contacto-links {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+.contacto-links ul a {
+    font-size: 20px;
+    color: #bbbbbb;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+    padding: 6px;
+}
+
+.contacto-links ul li a:hover {
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+.contacto-link a {
+    display: inline-block;
+    min-height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all .5s ease;
+
+}
+
+.contacto-link a:hover {
+    background-color: #00c3ff;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box-info {
+        gap: 15px;
+    }
+
+    .box-info>h1 {
+        font-size: 1.5rem;
+    }
+}

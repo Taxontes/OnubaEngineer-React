@@ -1,0 +1,139 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.video-background {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* Asegura que el video esté detrás del contenido del encabezado */
+}
+
+/* Estilo adicional para la capa de superposición (puedes ajustar según tus necesidades) */
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    z-index: 0;
+}
+
+.header-content {
+    z-index: 1;
+    /* Asegura que el contenido esté sobre la capa de superposición y el video */
+    color: white;
+    /* Cambia el color del texto según tus preferencias */
+}
+
+.menu-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* backdrop-filter: blur(5px); */
+
+
+}
+
+.logo-header {
+    color: #fffdff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.navbar-enlaces ul li {
+    position: relative;
+    float: left;
+
+}
+
+.navbar-enlaces ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #fffdff;
+    display: block;
+
+}
+
+.navbar-enlaces ul li a:hover {
+    color: #41A8FF;
+
+}
+
+#menu-header {
+    display: none;
+
+}
+
+.menu-icono {
+    width: 25px;
+
+
+}
+
+.menu-icono {
+    cursor: pointer;
+    display: none;
+
+}
+
+
+.header-txt p {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.header-txt h1 {
+    font-size: 90px;
+    line-height: 80px;
+    color: #fefcfb;
+    margin-bottom: 35px;
+}
+
+.header-txt h3 {
+    font-size: 60px;
+    line-height: 55px;
+    color: #fefcfb;
+    margin-bottom: 25px;
+}
+
+.header-txt p {
+    font-size: 18px;
+    color: #fefcfb;
+    margin-bottom: 55px;
+}
+
+.btn-1-header {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #1b82f5;
+    color: #fefcfb;
+    border-radius: 25px;
+    font-size: 22px;
+}
+
+.btn-1-header:hover {
+    background-color: #1755b6;
+}
