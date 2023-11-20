@@ -9,27 +9,27 @@ export const Servicios = () => {
                 <hr className='servicio-hr' />
                 <div className='services container'>
                     <div className="service">
-                        <img src="/icons/mantenimientoDark.png" alt="" />
+                        <img src="/icons/edificio.png" alt="" />
                         <h3>Proyectos de ingeniería</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                     <div className="service">
-                        <img src="/icons/energiaDark.png" alt="" />
+                        <img src="/icons/energia.png" alt="" />
                         <h3>Gestor energético de edificios</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                     <div className="service">
-                        <img src="/icons/ingenieroDark.png" alt="" />
+                        <img src="/icons/obra.png" alt="" />
                         <h3>Direcciones de obra</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                     <div className="service">
-                        <img src="icons/consultaDark.png" alt="" />
+                        <img src="icons/asesoria.png" alt="" />
                         <h3>Asesoría técnica</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                     <div className="service">
-                        <img src="/icons/asesoria.png" alt="" />
+                        <img src="/icons/gestion.png" alt="" />
                         <h3>Gestión proyectos
                             (PMI)</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -40,7 +40,7 @@ export const Servicios = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                     <div className="service">
-                        <img src="/icons/empresaDark.png" alt="" />
+                        <img src="/icons/pymes.png" alt="" />
                         <h3>Servicios PYMES</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
