@@ -5,6 +5,13 @@ export const Valores = () => {
     return (
         <>
             <h2 className='tilulo-valores'> Explorando los Valores Centrales de la Empresa</h2>
+            <div className="valores-description container">
+               
+                <div className="text-valores">
+                    Gracias a la sólida cimentación de valores que guía cada aspecto de nuestra empresa, nos enorgullece ofrecer los servicios de ingeniería más destacados. Estos valores no solo constituyen el corazón de nuestra organización, sino que también son la brújula que orienta cada proyecto hacia la excelencia. Con dedicación y compromiso arraigados en estos principios
+
+                </div>
+            </div>
             <section className='valores'>
                 <div className="card">
                     <div className="face front">
@@ -34,7 +41,7 @@ export const Valores = () => {
                     <div className="face back">
                         <h3 className='card-title'>Honestidad</h3>
                         <p>
-                            Cimiento de nuestra empresa. 
+                            Cimiento de nuestra empresa.
                             Desde la concepción hasta la ejecución de proyectos, con una comunicación transparente y directa.
                         </p>
                     </div>
@@ -61,8 +68,8 @@ export const Valores = () => {
                 </div>
 
             </section>
-            {/* <div className="wave"></div> */}
-
+            
+             {/* <div className="wave"></div>  */}
 
         </>
     )
