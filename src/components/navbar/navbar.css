@@ -60,6 +60,11 @@
     color: #fffdff;
     font-size: 30px;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding-top:20px;
+    gap: 20px;
+   
 }
 
 .navbar-enlaces ul li {

@@ -5,7 +5,7 @@ export const Navbar = () => {
         <>
             <header className='header'>
                 <div className="menu-header container">
-                    <a href="#" className='logo-header'>Logo</a>
+                    <a href="#" className='logo-header'><img style={{ height: '60px', width: '60px', borderRadius:'50px' }} src="/icons/fjvt.jpg" alt="" /> Onuba Engineer</a>
                     <input type="checkbox" id='menu-header' />
                     <label htmlFor="menu">
                         <img src="/menu.png" alt="" className='menu-icono' />
@@ -29,10 +29,11 @@ export const Navbar = () => {
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine" className="header-content container">
                     <div className="header-txt">
+                       
                         <h1>The Best Engineers</h1>
                         <h3>We improve the welfare of society</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed officia facilis esse dolores corrupti iste debitis earum qui veritatis quidem cupiditate minima saepe, fugiat maxime mollitia facere nisi nesciunt vero?</p>
-                        <a href="#About" className='btn-1-header'>Información</a>
+                        <a href="#About" className='btn-1-header'>Conócenos</a>
                     </div>
                 </div>
             </header>

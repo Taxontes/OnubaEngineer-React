@@ -10,9 +10,9 @@
 }
 
 body {
-/* 
-  background: radial-gradient(#008bff, #f1f7fe); */
-  background: radial-gradient(#f1f7fe,#008bff, #f1f7fe);
+
+  background: radial-gradient(#008bff, #f1f7fe); 
+  /* background: radial-gradient(#f1f7fe,#008bff, #f1f7fe); */
   /* background: radial-gradient(#1b82f5, #000000);  */
   /* background-color: #e4e4e6; */
 
