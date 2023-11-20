@@ -39,7 +39,7 @@ export const Servicios = () => {
                         <p><mark className="palabra-destacada">Emisión de Certificados</mark> de Obra.</p>
                         <p>Asesoriamientos Técnicos de Ejecución.</p>
                     </div>
-                    {/* <div className="service">
+                    <div className="service">
                         <img src="/icons/gestion.png" alt="" />
                         <h3>Gestión proyectos
                             (PMI)</h3>
@@ -48,7 +48,7 @@ export const Servicios = () => {
                         <p>Cierre.</p>
                        
                         
-                    </div> */}
+                    </div> 
                     <div className="service">
                         <img src="/icons/economia.png" alt="" />
                         <h3>Trámites en administración</h3>
@@ -57,7 +57,7 @@ export const Servicios = () => {
                         <p><mark className="palabra-destacada">Licitaciones Públicas.</mark></p>
                         
                     </div>
-                    <div className="service">
+                    <div className="service" id='service1'>
                         <img src="/icons/pymes.png" alt="" />
                         <h3>Servicios PYMES</h3>
                         <p>Estudio, Ánalisis Situación Inicial.</p>
