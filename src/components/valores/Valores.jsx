@@ -56,7 +56,7 @@ export const Valores = () => {
                     </div>
                     <div className="face back">
                         <h3 className='card-title'>Compromiso</h3>
-                        <p>Motor de nuestra empresa. Nos comprometemos a superar expectativas, abrazar desafíos y ofrecer soluciones excepcionales en cada proyecto. </p>
+                        <p>Nos comprometemos a superar expectativas, abrazar desafíos y ofrecer soluciones excepcionales en cada proyecto. </p>
                     </div>
                 </div>
 

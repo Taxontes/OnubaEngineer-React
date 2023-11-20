@@ -1,6 +1,6 @@
+
 .diseño {
     padding: 50px 0;
-
 }
 
 .diseño-content {
@@ -32,6 +32,13 @@ h2 {
     margin: 15px 0;
     line-height: 1;
     color: white;
+}
+.diseño-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+
 }
 
 .diseño-hr {

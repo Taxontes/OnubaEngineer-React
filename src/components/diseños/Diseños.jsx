@@ -3,8 +3,8 @@ import './diseño.css'
 export const Diseños = () => {
     return (
         <>
-            <section >
-                <h2 className='servicio-title'>Algunos de nuestros proyectos</h2>
+            <section className='diseño-tittle'>
+                <h2 className='diseño-title'>Algunos de nuestros proyectos</h2>
                 <hr className='diseño-hr-title' />
 
                 <div className='diseño'>
@@ -15,7 +15,7 @@ export const Diseños = () => {
                         </div>
                         <div className="diseño-txt">
                             <span>seccion</span>
-                            <h2>Construcción de infraestructuras</h2>
+                            <h2>Construcción de Infraestructuras</h2>
                             <hr className='diseño-hr' />
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quo necessitatibus pariatur possimus. Nemo enim fugit saepe ullam aut harum et hic soluta tempore sapiente non, corporis, repellat nobis rerum!</p>
                             <br />
@@ -26,7 +26,7 @@ export const Diseños = () => {
                     <div data-aos="fade-up" data-aos-duration="1500" className="diseño-content container">
                         <div className="diseño-txt">
                             <span>seccion</span>
-                            <h2>Sobre nosotros</h2>
+                            <h2>Instalaciones Aire Comprimido</h2>
                             <hr className='diseño-hr' />
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quo necessitatibus pariatur possimus. Nemo enim fugit saepe ullam aut harum et hic soluta tempore sapiente non, corporis, repellat nobis rerum!</p>
                             <br />
@@ -43,7 +43,7 @@ export const Diseños = () => {
                         </div>
                         <div className="diseño-txt">
                             <span>seccion</span>
-                            <h2>Instalación placas solares</h2>
+                            <h2>Instalación Placas Solares</h2>
                             <hr className='diseño-hr' />
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quo necessitatibus pariatur possimus. Nemo enim fugit saepe ullam aut harum et hic soluta tempore sapiente non, corporis, repellat nobis rerum!</p>
                             <br />
