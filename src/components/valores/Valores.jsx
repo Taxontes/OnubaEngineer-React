@@ -13,7 +13,7 @@ export const Valores = () => {
                     </div>
                     <div className="face back">
                         <h3 className='card-title'>Responsabilidad</h3>
-                        <p>En nuestra empresa , la responsabilidad es nuestra piedra angular. Nos comprometemos a abordar cada proyecto  con integridad y diligencia.</p>
+                        <p>En nuestra empresa la responsabilidad es nuestra piedra angular. Nos comprometemos a abordar cada proyecto  con integridad y diligencia.</p>
                     </div>
                 </div>
                 <div className="card">
@@ -23,7 +23,7 @@ export const Valores = () => {
                     </div>
                     <div className="face back">
                         <h3 className='card-title'>Profesionalidad</h3>
-                        <p>En nuestra empresa, la profesionalidad guía cada acción, desde la interacción con clientes hasta la ejecución de proyectos.</p>
+                        <p>En nuestra empresa la profesionalidad guía cada acción, desde la interacción con clientes hasta la ejecución de cada proyecto.</p>
                     </div>
                 </div>
                 <div className="card">
@@ -34,8 +34,9 @@ export const Valores = () => {
                     <div className="face back">
                         <h3 className='card-title'>Honestidad</h3>
                         <p>
-                            Cimiento de nuestra empresa. <br /><br />
-                            Desde la concepción hasta la ejecución de proyectos, con una comunicación transparente y directa.</p>
+                            Cimiento de nuestra empresa. 
+                            Desde la concepción hasta la ejecución de proyectos, con una comunicación transparente y directa.
+                        </p>
                     </div>
                 </div>
                 <div className="card">
@@ -45,7 +46,7 @@ export const Valores = () => {
                     </div>
                     <div className="face back">
                         <h3 className='card-title'>Leatltad</h3>
-                        <p>Más que un valor; es un vínculo que fortalece nuestra colaboración. <br /><br /> Nos comprometemos a cultivar relaciones sólidas, con nuestros clientes .</p>
+                        <p>Vínculo que fortalece nuestra colaboración. Nos comprometemos a cultivar relaciones sólidas, con nuestros clientes .</p>
                     </div>
                 </div>
                 <div className="card">
